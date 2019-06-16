@@ -58,13 +58,12 @@ public class test1 extends TestBase {
         Thread.sleep(2000);
        // BrowserUtil.waitForClickablility(framePage.conShopping,40);
         framePage.conShopping.click();
+
         //STEP 6: Go to 'Cart' and click 'Check Out'
         Driver.getDriver().switchTo().parentFrame();
-
-      //  Thread.sleep(3000);
        action.moveToElement(homePage.Cart).perform();
-      // Thread.sleep(3000);
        homePage.checkOut.click();
+
         //STEP 7: Click 'Proceed to checkout'
       //  Thread.sleep(3000);
         summaryPage = new SummaryPage();
@@ -96,10 +95,9 @@ public class test1 extends TestBase {
         summaryPage.proceedToCheckOut2.click();
 
         //STEP 12: Confirm the correct order on 'Payment' tab
-
-        // Verify the product name
+               // Verify the product name
         Assert.assertEquals(summaryPage.product.getText(),"Printed Chiffon Dress");
-        // Verify the product size
+               // Verify the product size
         Assert.assertTrue(summaryPage.productSize.getText().contains("M"));
 
 

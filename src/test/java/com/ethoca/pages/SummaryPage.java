@@ -65,7 +65,6 @@ public class SummaryPage {
     @FindBy(xpath = "//*[contains(@id,'product_')]/td[2]/small/a")
     public WebElement productSize;
 
-                     //*[contains(@id,'product_')]/td[2]/p/a
 
     public static String firstNameCreation(){
         faker = new Faker();
