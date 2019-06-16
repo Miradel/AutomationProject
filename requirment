@@ -1,0 +1,23 @@
+STEP 1: Go to http://automationpractice.com
+STEP 2: Go to 'Women' and select 'Summer Dresses'
+STEP 3: From the available products Grid View, mouse over 'Printed Chiffon Dress' and click 'Quick view'
+STEP 4: Select 'M' size and click on 'Add to Cart'
+STEP 5: Click on 'Continue shopping'
+STEP 6: Go to 'Cart' and click 'Check Out'
+STEP 7: Click 'Proceed to checkout'
+STEP 8: Enter an email and click on 'Create an Account'
+STEP 9: Fill in mandatory fields and click 'Register'
+STEP 10: Click 'Proceed to checkout' on Address tab
+STEP 11: Agree to 'Terms of service' and Click 'Proceed to checkout' on Shipping tab
+STEP 12: Confirm the correct order on 'Payment' tab
+
+
+Challange :
+         1. Here is Iframe before step 4 , and it's id is change all the time , so i need handle dinamic ID
+
+         2. wait issue is here
+
+         3. product xpath is chande after put into the
+
+
+
