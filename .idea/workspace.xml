@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1805d2ba-97be-48a8-9372-42007b1d3af8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ethoca/pages/SummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ethoca/pages/SummaryPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ethoca/tests/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ethoca/tests/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ethoca/utilities/BrowserUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ethoca/utilities/BrowserUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ethoca/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ethoca/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ethoca/pages/SummaryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ethoca/pages/SummaryPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ethoca/tests/test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ethoca/tests/test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ethoca/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ethoca/utilities/TestBase.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,20 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/utilities/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/utilities/BrowserUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="246">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,11 +47,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/tests/test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="97" column="15" selection-start-line="97" selection-start-column="15" selection-end-line="97" selection-end-column="15" />
+            <state relative-caret-position="327">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/utilities/BrowserUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/utilities/ConfigurationReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/pages/SummaryPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="273">
+              <caret line="121" column="70" selection-start-line="121" selection-start-column="70" selection-end-line="121" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#132#133#0" expanded="true" />
@@ -92,62 +118,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirment">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/pages/SummerDressPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="82" lean-forward="true" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/pages/FramePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="12" column="61" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/utilities/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="244">
+              <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#3132#3133#0" expanded="true" />
+                <element signature="e#3162#3163#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/utilities/Pages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -174,18 +163,20 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ethoca/utilities/ConfigurationReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ethoca/utilities/Driver.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ethoca/pages/homePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ethoca/utilities/BrowserUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ethoca/pages/framePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ethoca/pages/FramePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ethoca/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/ethoca/pages/SummerDressPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ethoca/tests/test2.java" />
         <option value="$PROJECT_DIR$/requirment" />
         <option value="$PROJECT_DIR$/configuration.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ethoca/utilities/TestBase.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/ethoca/pages/SummaryPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ethoca/pages/Pages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ethoca/utilities/BrowserUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ethoca/utilities/Pages.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ethoca/tests/test1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ethoca/utilities/TestBase.java" />
       </list>
     </option>
   </component>
@@ -197,7 +188,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="47" />
+    <option name="x" value="116" />
+    <option name="y" value="41" />
     <option name="width" value="1252" />
     <option name="height" value="713" />
   </component>
@@ -271,7 +263,8 @@
             </path>
             <path>
               <item name="EthocaChallange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="EthocaChallange" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,6 +277,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/ethoca" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ethoca.utilities" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/com/ethoca" />
       <recent name="$PROJECT_DIR$/src/test/java/com/Ethoca" />
@@ -377,39 +373,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test1_test11 - 2019.06.16 at 13h 42m 23s.xml">
+    <history-entry file="test1_test11 - 2019.06.17 at 17h 46m 48s.xml">
       <configuration name="test1.test11" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test1_test11 - 2019.06.16 at 13h 43m 29s.xml">
+    <history-entry file="test1_test11 - 2019.06.17 at 17h 51m 20s.xml">
       <configuration name="test1.test11" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test1_test11 - 2019.06.16 at 13h 46m 07s.xml">
+    <history-entry file="test1_test11 - 2019.06.17 at 17h 53m 05s.xml">
       <configuration name="test1.test11" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test1_test11 - 2019.06.16 at 13h 48m 43s.xml">
+    <history-entry file="test1_test11 - 2019.06.17 at 17h 53m 59s.xml">
       <configuration name="test1.test11" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test1_test11 - 2019.06.16 at 13h 49m 45s.xml">
+    <history-entry file="test1_test11 - 2019.06.17 at 18h 11m 51s.xml">
       <configuration name="test1.test11" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test1_test11 - 2019.06.16 at 13h 52m 22s.xml">
+    <history-entry file="test1_test11 - 2019.06.17 at 18h 15m 18s.xml">
       <configuration name="test1.test11" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test1_test11 - 2019.06.16 at 13h 53m 21s.xml">
+    <history-entry file="test1_test11 - 2019.06.17 at 18h 30m 10s.xml">
       <configuration name="test1.test11" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test1_test11 - 2019.06.16 at 14h 01m 58s.xml">
+    <history-entry file="test1_test11 - 2019.06.17 at 18h 52m 56s.xml">
       <configuration name="test1.test11" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test1_test11 - 2019.06.16 at 14h 13m 04s.xml">
+    <history-entry file="test1_test11 - 2019.06.17 at 19h 37m 35s.xml">
       <configuration name="test1.test11" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="test1_test11 - 2019.06.16 at 14h 13m 55s.xml">
+    <history-entry file="test1_test11 - 2019.06.17 at 19h 40m 38s.xml">
       <configuration name="test1.test11" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="47" width="1252" height="713" extended-state="0" />
+    <frame x="116" y="41" width="1252" height="713" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -419,13 +415,13 @@
       <window_info id="Image Layers" order="4" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24958678" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.2190016" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.22383253" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.31400967" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.19323671" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -477,37 +473,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ca/miradel/package-info.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/utilities/ConfigurationReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/pages/SummerDressPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -537,16 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/utilities/BrowserUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/pages/FramePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -559,6 +514,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/tests/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/utilities/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/utilities/ConfigurationReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/configuration.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -566,32 +558,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/utilities/Driver.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/utilities/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/pages/SummaryPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="273">
+          <caret line="121" column="70" selection-start-line="121" selection-start-column="70" selection-end-line="121" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#132#133#0" expanded="true" />
@@ -612,12 +589,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/tests/test1.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/pages/Pages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="97" column="15" selection-start-line="97" selection-start-column="15" selection-end-line="97" selection-end-column="15" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/utilities/BrowserUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/utilities/Pages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/Screenshotstest1120190617074037.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/tests/test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ethoca/utilities/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3132#3133#0" expanded="true" />
+            <element signature="e#3162#3163#0" expanded="true" />
           </folding>
         </state>
       </provider>

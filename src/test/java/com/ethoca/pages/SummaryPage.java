@@ -5,6 +5,7 @@ import com.github.javafaker.Faker;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class SummaryPage {
 
@@ -106,6 +107,21 @@ public class SummaryPage {
 
     public static String phoneNumberCreation(){
         return faker.phoneNumber().cellPhone();
+    }
+
+    public static void fillMandetoryInfo(){
+        SummaryPage summaryPage = new SummaryPage();
+        summaryPage.firstName.sendKeys(summaryPage.firstNameCreation());
+        summaryPage.lastName.sendKeys(summaryPage.lastNameCreation());
+        summaryPage.passWord.sendKeys(summaryPage.passWordCreation());
+        summaryPage.address.sendKeys(summaryPage.addressCreation());
+        summaryPage.city.sendKeys(summaryPage.cityCreation());
+        Select select = new Select(summaryPage.stateList);
+        select.selectByValue(summaryPage.randomeNumber());
+        summaryPage.postalCode.sendKeys(summaryPage.postcodeCreation());
+        summaryPage.phone.sendKeys(summaryPage.phoneNumberCreation());
+        summaryPage.register.click();
+
     }
 
 }
