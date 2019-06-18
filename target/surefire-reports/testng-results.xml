@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WebOrders" duration-ms="17410" started-at="2019-06-18T19:17:46Z" finished-at="2019-06-18T19:18:03Z">
+    <groups>
+    </groups>
+    <test name="Automation Project Test" duration-ms="17410" started-at="2019-06-18T19:17:46Z" finished-at="2019-06-18T19:18:03Z">
+      <class name="com.ethoca.tests.test1">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.ethoca.tests.test1@66d2e7d9]" name="setUpTest" is-config="true" duration-ms="91" started-at="2019-06-18T19:17:46Z" finished-at="2019-06-18T19:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:com.ethoca.tests.test1@66d2e7d9]" name="setupMethod" is-config="true" duration-ms="1891" started-at="2019-06-18T19:17:46Z" finished-at="2019-06-18T19:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="test11()[pri:0, instance:com.ethoca.tests.test1@66d2e7d9]" name="test11" duration-ms="15113" started-at="2019-06-18T19:17:48Z" finished-at="2019-06-18T19:18:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11 -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ethoca.tests.test1@66d2e7d9]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2019-06-18T19:18:03Z" finished-at="2019-06-18T19:18:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test11 status=SUCCESS method=test1.test11()[pri:0, instance:com.ethoca.tests.test1@66d2e7d9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.ethoca.tests.test1@66d2e7d9]" name="tearDownTest" is-config="true" duration-ms="303" started-at="2019-06-18T19:18:03Z" finished-at="2019-06-18T19:18:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.ethoca.tests.test1 -->
+    </test> <!-- Automation Project Test -->
+  </suite> <!-- WebOrders -->
+</testng-results>

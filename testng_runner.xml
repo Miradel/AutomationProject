@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WebOrders" verbose="2">
+
+    <test name="Automation Project Test">
+        <packages>
+            <package name=".*"></package>
+        </packages>
+    </test>
+
+</suite>

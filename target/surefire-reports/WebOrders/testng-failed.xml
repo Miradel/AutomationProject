@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [WebOrders]">
+  <test thread-count="5" verbose="0" name="Automation Project Test(failed)">
+    <classes>
+      <class name="com.ethoca.tests.test1">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="setUpTest"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDownTest"/>
+          <include name="test11"/>
+        </methods>
+      </class> <!-- com.ethoca.tests.test1 -->
+    </classes>
+  </test> <!-- Automation Project Test(failed) -->
+</suite> <!-- Failed suite [WebOrders] -->

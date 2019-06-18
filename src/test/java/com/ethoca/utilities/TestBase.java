@@ -3,12 +3,7 @@ package com.ethoca.utilities;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import com.ethoca.pages.FramePage;
-import com.ethoca.pages.HomePage;
-import com.ethoca.pages.SummaryPage;
-import com.ethoca.pages.SummerDressPage;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 
@@ -30,7 +25,7 @@ public class TestBase  {
         pages = new Pages();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.get(ConfigurationReader.getProperty("url"));
+       // driver.get(ConfigurationReader.getProperty("url"));
     }
 
     @AfterMethod(alwaysRun = true)
@@ -46,34 +41,37 @@ public class TestBase  {
         } else if (result.getStatus() == ITestResult.SKIP) {
             extentLogger.skip("Test Case Skipped: " + result.getName());
         }
-        Driver.closeDriver();
+
+       // Driver.closeDriver();
     }
 
     @BeforeTest (alwaysRun = true)
     public void setUpTest() {
         report = new ExtentReports();
-        // this is our custom location of the report that will be generated
-        // report will be generated in the current project inside folder: test-output
-        // report file name: report.html
+        /*
+         this is our custom location of the report that will be generated
+         report will be generated in the current project inside folder: test-output
+         report file name: report.html
+         */
         String filePath = System.getProperty("user.dir") + "/test-output/report.html";
-
-//        windows users pls correct ur path:
-//        String filePath = System.getProperty("user.dir") + "\\test-output\\report.html";
+       /*
+        path for windows: String filePath = System.getProperty("user.dir") + "\\test-output\\report.html";
+        */
 
         // initialize the htmlReporter with the path to the report
         htmlReporter = new ExtentHtmlReporter(filePath);
 
-        // we attach the htmlreport to our report
+        // Attach the htmlreport to the report
         report.attachReporter(htmlReporter);
 
-        report.setSystemInfo("Environment", "Staging");
+        report.setSystemInfo("Environment", "QA");
         report.setSystemInfo("Browser", ConfigurationReader.getProperty("browser"));
         report.setSystemInfo("OS", System.getProperty("os.name"));
 
-        report.setSystemInfo("QA Engineer", "Admiral Kunkka");
+        report.setSystemInfo("QA Engineer", "Meradel Mijit");
 
-        htmlReporter.config().setDocumentTitle("Prestashop Reports");
-        htmlReporter.config().setReportName("Prestashop Automated Test Reports");
+        htmlReporter.config().setDocumentTitle("Automation Project Reports");
+        htmlReporter.config().setReportName("Automation project Test Reports");
 
 //        htmlReporter.config().setTheme(Theme.DARK);
 
@@ -82,5 +80,6 @@ public class TestBase  {
     @AfterTest(alwaysRun = true)
     public void tearDownTest() {
         report.flush();
+        Driver.closeDriver();
     }
 }
