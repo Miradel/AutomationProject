@@ -52,11 +52,9 @@ public class test1 extends TestBase {
 
         extentLogger.info("STEP 8: Enter an email and click on 'Create an Account'");
         pages.summaryPage().emailInput.sendKeys(pages.summaryPage().randomEmail());
-        //Thread.sleep(2000);
         pages.summaryPage().create.click();
 
         extentLogger.info("STEP 9: Fill in mandatory fields and click 'Register'");
-       // Thread.sleep(2000);
         pages.summaryPage().fillMandetoryInfo();
 
         extentLogger.info("STEP 10: Click 'Proceed to checkout' on Address tab");
