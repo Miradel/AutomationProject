@@ -42,7 +42,7 @@ public class TestBase  {
             extentLogger.skip("Test Case Skipped: " + result.getName());
         }
 
-       // Driver.closeDriver();
+      //  Driver.closeDriver();
     }
 
     @BeforeTest (alwaysRun = true)
@@ -63,7 +63,6 @@ public class TestBase  {
 
         // Attach the htmlreport to the report
         report.attachReporter(htmlReporter);
-
         report.setSystemInfo("Environment", "QA");
         report.setSystemInfo("Browser", ConfigurationReader.getProperty("browser"));
         report.setSystemInfo("OS", System.getProperty("os.name"));
@@ -72,14 +71,10 @@ public class TestBase  {
 
         htmlReporter.config().setDocumentTitle("Automation Project Reports");
         htmlReporter.config().setReportName("Automation project Test Reports");
-
-//        htmlReporter.config().setTheme(Theme.DARK);
-
     }
 
     @AfterTest(alwaysRun = true)
     public void tearDownTest() {
         report.flush();
-        Driver.closeDriver();
     }
 }

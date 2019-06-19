@@ -22,6 +22,4 @@ public class FramePage {
     @FindBy(xpath = "//*[@title='Continue shopping']/span")
     public WebElement conShopping;
 
-
-
 }

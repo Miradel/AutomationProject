@@ -121,7 +121,6 @@ public class SummaryPage {
         summaryPage.postalCode.sendKeys(summaryPage.postcodeCreation());
         summaryPage.phone.sendKeys(summaryPage.phoneNumberCreation());
         summaryPage.register.click();
-
     }
 
 }

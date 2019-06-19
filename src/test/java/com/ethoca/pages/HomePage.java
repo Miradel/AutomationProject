@@ -21,6 +21,4 @@ public class HomePage {
 
     @FindBy(xpath = "//*[@id=\"button_order_cart\"]/span")
     public WebElement checkOut;
-
-
 }

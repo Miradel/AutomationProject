@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class test1 extends TestBase {
     @Test
     public void test11() throws InterruptedException {
-        // Create the new test case and give the name :Whole procees of buy product
+        // Create the new test case  :Whole procees of buy product
         extentLogger = report.createTest("Whole procees of buy product");
 
         // Use logger to log the steps
@@ -22,12 +22,12 @@ public class test1 extends TestBase {
 
         extentLogger.info("STEP 2: Go to 'Women' and select 'Summer Dresses'");
         BrowserUtil.hover( pages.homePage().women);
-        BrowserUtil.waitForVisibility(pages.homePage().summerDressButtom,20);
+        BrowserUtil.waitForVisibility(pages.homePage().summerDressButtom,10);
         pages.homePage().summerDressButtom.click();
 
         extentLogger.info("STEP 3: From the available products Grid View, mouse over 'Printed Chiffon Dress' and click 'Quick view'\n");
         BrowserUtil.hover(pages.summerDressPage().Printed_Chiffon_Dress);
-       //BrowserUtil.waitForVisibility(summerDressPage.quickView,20);
+        BrowserUtil.waitForVisibility(pages.summerDressPage().quickView,10);
         pages.summerDressPage().quickView.click();
 
         extentLogger.info("STEP 4: Select 'M' size and click on 'Add to Cart'");
@@ -37,8 +37,8 @@ public class test1 extends TestBase {
         select.selectByValue("2");
         pages.framePage().add_to_Card.click();
         Thread.sleep(2000);
-
         // BrowserUtil.waitForClickablility(pages.framePage().conShopping,3000);
+
         extentLogger.info("STEP 5: Click on 'Continue shopping'");
         pages.framePage().conShopping.click();
         driver.switchTo().parentFrame();
