@@ -19,7 +19,7 @@ public class FramePage {
     @FindBy(id = "group_1")
     public WebElement dropDown;
 
-    @FindBy(xpath = "//*[@title='Continue shopping']/span")
+    @FindBy(xpath = "//*[@id=\"layer_cart\"]/div[1]/div[2]/div[4]/span/span")
     public WebElement conShopping;
 
 }

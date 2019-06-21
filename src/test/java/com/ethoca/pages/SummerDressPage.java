@@ -10,10 +10,10 @@ public class SummerDressPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(xpath = "(//*[@title='Printed Chiffon Dress'])[2]")
+    @FindBy(xpath = "//*[@id=\"center_column\"]/ul/li[3]/div/div[1]/div/a[1]/img")
     public WebElement Printed_Chiffon_Dress;
 
-    @FindBy(xpath = "(//*[@class='product-image-container'])[3]//a//span")
+    @FindBy(xpath = "//*[@id=\"center_column\"]/ul/li[3]/div/div[1]/div/a[2]/span")
     public WebElement quickView;
 
 }

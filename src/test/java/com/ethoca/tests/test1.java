@@ -4,6 +4,7 @@ import com.ethoca.utilities.BrowserUtil;
 import com.ethoca.utilities.ConfigurationReader;
 import com.ethoca.utilities.Driver;
 import com.ethoca.utilities.TestBase;
+import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -27,17 +28,15 @@ public class test1 extends TestBase {
 
         extentLogger.info("STEP 3: From the available products Grid View, mouse over 'Printed Chiffon Dress' and click 'Quick view'\n");
         BrowserUtil.hover(pages.summerDressPage().Printed_Chiffon_Dress);
-        BrowserUtil.waitForVisibility(pages.summerDressPage().quickView,10);
+       // BrowserUtil.waitForVisibility(pages.summerDressPage().quickView,10);
         pages.summerDressPage().quickView.click();
 
         extentLogger.info("STEP 4: Select 'M' size and click on 'Add to Cart'");
         driver.switchTo().frame(pages.framePage().frame);
-
         Select select = new Select(pages.framePage().dropDown);
         select.selectByValue("2");
         pages.framePage().add_to_Card.click();
-        Thread.sleep(2000);
-        // BrowserUtil.waitForClickablility(pages.framePage().conShopping,3000);
+        BrowserUtil.waitForClickablility(pages.framePage().conShopping,20);
 
         extentLogger.info("STEP 5: Click on 'Continue shopping'");
         pages.framePage().conShopping.click();
@@ -45,6 +44,7 @@ public class test1 extends TestBase {
 
         extentLogger.info("STEP 6: Go to 'Cart' and click 'Check Out'");
         BrowserUtil.hover(pages.homePage().Cart);
+        BrowserUtil.waitForVisibility(pages.homePage().checkOut,10);
         pages.homePage().checkOut.click();
 
         extentLogger.info("STEP 7: Click 'Proceed to checkout'");
@@ -55,6 +55,7 @@ public class test1 extends TestBase {
         pages.summaryPage().create.click();
 
         extentLogger.info("STEP 9: Fill in mandatory fields and click 'Register'");
+        BrowserUtil.waitForVisibility(pages.summaryPage().firstName,10);
         pages.summaryPage().fillMandetoryInfo();
 
         extentLogger.info("STEP 10: Click 'Proceed to checkout' on Address tab");

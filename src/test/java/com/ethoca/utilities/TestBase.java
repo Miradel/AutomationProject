@@ -23,9 +23,9 @@ public class TestBase  {
     public void setupMethod() {
         driver = Driver.getDriver();
         pages = new Pages();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+       // driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-       // driver.get(ConfigurationReader.getProperty("url"));
+       //driver.get(ConfigurationReader.getProperty("url"));
     }
 
     @AfterMethod(alwaysRun = true)
