@@ -2,35 +2,35 @@
 <testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="WebOrders" duration-ms="17410" started-at="2019-06-18T19:17:46Z" finished-at="2019-06-18T19:18:03Z">
+  <suite name="WebOrders" duration-ms="14949" started-at="2019-06-24T00:29:07Z" finished-at="2019-06-24T00:29:22Z">
     <groups>
     </groups>
-    <test name="Automation Project Test" duration-ms="17410" started-at="2019-06-18T19:17:46Z" finished-at="2019-06-18T19:18:03Z">
+    <test name="Automation Project Test" duration-ms="14949" started-at="2019-06-24T00:29:07Z" finished-at="2019-06-24T00:29:22Z">
       <class name="com.ethoca.tests.test1">
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.ethoca.tests.test1@66d2e7d9]" name="setUpTest" is-config="true" duration-ms="91" started-at="2019-06-18T19:17:46Z" finished-at="2019-06-18T19:17:46Z">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:com.ethoca.tests.test1@7f560810]" name="setUpTest" is-config="true" duration-ms="98" started-at="2019-06-24T00:29:07Z" finished-at="2019-06-24T00:29:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="setupMethod()[pri:0, instance:com.ethoca.tests.test1@66d2e7d9]" name="setupMethod" is-config="true" duration-ms="1891" started-at="2019-06-18T19:17:46Z" finished-at="2019-06-18T19:17:48Z">
+        <test-method status="PASS" signature="setupMethod()[pri:0, instance:com.ethoca.tests.test1@7f560810]" name="setupMethod" is-config="true" duration-ms="1763" started-at="2019-06-24T00:29:07Z" finished-at="2019-06-24T00:29:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="test11()[pri:0, instance:com.ethoca.tests.test1@66d2e7d9]" name="test11" duration-ms="15113" started-at="2019-06-18T19:17:48Z" finished-at="2019-06-18T19:18:03Z">
+        <test-method status="PASS" signature="test11()[pri:0, instance:com.ethoca.tests.test1@7f560810]" name="test11" duration-ms="12902" started-at="2019-06-24T00:29:09Z" finished-at="2019-06-24T00:29:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test11 -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ethoca.tests.test1@66d2e7d9]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2019-06-18T19:18:03Z" finished-at="2019-06-18T19:18:03Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.ethoca.tests.test1@7f560810]" name="tearDownMethod" is-config="true" duration-ms="1" started-at="2019-06-24T00:29:22Z" finished-at="2019-06-24T00:29:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test11 status=SUCCESS method=test1.test11()[pri:0, instance:com.ethoca.tests.test1@66d2e7d9] output={null}]]]>
+                <![CDATA[[TestResult name=test11 status=SUCCESS method=test1.test11()[pri:0, instance:com.ethoca.tests.test1@7f560810] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.ethoca.tests.test1@66d2e7d9]" name="tearDownTest" is-config="true" duration-ms="303" started-at="2019-06-18T19:18:03Z" finished-at="2019-06-18T19:18:03Z">
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:com.ethoca.tests.test1@7f560810]" name="tearDownTest" is-config="true" duration-ms="174" started-at="2019-06-24T00:29:22Z" finished-at="2019-06-24T00:29:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
